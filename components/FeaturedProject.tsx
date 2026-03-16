@@ -51,6 +51,7 @@ const FeaturedProject: React.FC = () => {
                 <img 
                     src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2621&auto=format&fit=crop" 
                     alt="LocalLens" 
+                    referrerPolicy="no-referrer"
                     className="w-full h-full object-cover transform scale-110 group-hover:scale-100 transition-transform duration-700 ease-in-out"
                 />
             </div>

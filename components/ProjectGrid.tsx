@@ -15,7 +15,7 @@ const ProjectGrid: React.FC = () => {
       title: "Future-flow (Algo-Trade)",
       desc: "Trading dashboard with Python backend & AngelOne API. Visualizes trading strategies interactively for educational purposes.",
       tags: ["Python", "AngelOne API", "Dashboard"],
-      image: "https://images.unsplash.com/photo-1611974765270-ca1258634369?q=80&w=2664&auto=format&fit=crop",
+      image: "https://images.unsplash.com/photo-1642790106117-e829e14a795f?q=80&w=2574&auto=format&fit=crop",
       link: "https://future--flow.vercel.app/"
     },
     {
@@ -57,6 +57,7 @@ const ProjectGrid: React.FC = () => {
                <img 
                  src={project.image} 
                  alt={project.title} 
+                 referrerPolicy="no-referrer"
                  className="w-full h-full object-cover transform scale-110 group-hover:scale-100 transition-transform duration-700 ease-in-out" 
                />
             </div>
