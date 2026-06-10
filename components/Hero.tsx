@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
               className="flex items-center gap-2 px-3 py-1.5 rounded-full border border-neon-blue/30 bg-neon-blue/10 text-cyan-300 text-xs font-semibold uppercase tracking-wider shadow-[0_0_10px_rgba(6,182,212,0.15)]"
             >
               <Trophy className="w-3.5 h-3.5" />
-              Top-10 Hackathon Finalist
+              National Hackathon Finalist (Top 10)
             </motion.div>
           </div>
 
