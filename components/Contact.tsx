@@ -16,14 +16,23 @@ const Contact: React.FC = () => {
           I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
         </p>
 
-        <div className="flex justify-center gap-6 mb-10 relative z-10">
-          <a href="https://github.com/Yuvraj070" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800/50 rounded-full text-slate-300 hover:text-white hover:bg-neon-orange hover:scale-110 transition-all duration-300">
+        <div className="flex flex-wrap justify-center gap-4 mb-10 relative z-10">
+          <a href="https://github.com/Yuvi-070" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800/50 rounded-full text-slate-300 hover:text-white hover:bg-neon-orange hover:scale-110 transition-all duration-300" title="GitHub">
             <Github className="w-6 h-6" />
           </a>
-          <a href="https://linkedin.com/in/YuvrajTale" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800/50 rounded-full text-slate-300 hover:text-white hover:bg-[#0077b5] hover:scale-110 transition-all duration-300">
+          <a href="https://www.linkedin.com/in/yuvraj-tale-m0705/" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800/50 rounded-full text-slate-300 hover:text-white hover:bg-[#0077b5] hover:scale-110 transition-all duration-300" title="LinkedIn">
             <Linkedin className="w-6 h-6" />
           </a>
-          <a href="mailto:yuvrajtale03@gmail.com" className="p-3 bg-slate-800/50 rounded-full text-slate-300 hover:text-white hover:bg-red-500 hover:scale-110 transition-all duration-300">
+          <a href="https://huggingface.co/yuvraj0705" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800/50 rounded-full text-slate-300 hover:text-white hover:bg-yellow-500 hover:scale-110 transition-all duration-300 flex items-center justify-center" title="Hugging Face">
+            <span className="w-6 h-6 flex items-center justify-center font-bold font-mono text-[10px]">HF</span>
+          </a>
+          <a href="https://leetcode.com/u/yuvrajtale03/" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800/50 rounded-full text-slate-300 hover:text-white hover:bg-orange-500 hover:scale-110 transition-all duration-300 flex items-center justify-center" title="LeetCode">
+            <span className="w-6 h-6 flex items-center justify-center font-bold font-mono text-[10px]">LC</span>
+          </a>
+          <a href="https://www.hackerrank.com/profile/yuvrajtale03" target="_blank" rel="noopener noreferrer" className="p-3 bg-slate-800/50 rounded-full text-slate-300 hover:text-white hover:bg-green-500 hover:scale-110 transition-all duration-300 flex items-center justify-center" title="HackerRank">
+            <span className="w-6 h-6 flex items-center justify-center font-bold font-mono text-[10px]">HR</span>
+          </a>
+          <a href="mailto:yuvrajtale03@gmail.com" className="p-3 bg-slate-800/50 rounded-full text-slate-300 hover:text-white hover:bg-red-500 hover:scale-110 transition-all duration-300" title="Email">
             <Mail className="w-6 h-6" />
           </a>
         </div>
